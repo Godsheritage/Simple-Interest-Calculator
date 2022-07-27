@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javascript Calculator</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container bg-light">
+		<div class="row">
+			<div class="col-md-12">
+				<h1 class="text-center">My Simple Interest Calculator</h1>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<form>
+					<div class="form-group mb-3">
+						<label>Principal</label>
+						<input type="text" name="principal" class="form-control" placeholder="Principal Amount" id="principal">
+					</div>
+						<div class="form-group mb-3">
+						<label>Rate</label>
+						<input type="text" name="rate" class="form-control" placeholder="Rate value" id="rate">
+					</div>
+						<div class="form-group mb-3">
+						<label>Time</label>
+						<input type="text" name="time" class="form-control" placeholder="Years" id="time">
+					</div>
+					<button type="button" class="btn btn-primary mt-3" id = "button">Calculate</button>
+				</form>
+			</div>
+		</div>
+
+
+		<div class="row">
+			<div class="col-md-12">
+				<h1 id="result">$</h1>
+			</div>
+		</div>
+	</div>
+	<script type = "text/javascript" src = "js/main.js"></script>
+</body>
+</html>
